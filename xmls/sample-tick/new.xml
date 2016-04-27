@@ -1,0 +1,2932 @@
+<?xml version="1.0"?>
+<medical_content><zipnosis_content_version>2.0</zipnosis_content_version><clinical-protocol>
+  <cpid>91</cpid>
+  <name>CP91</name>
+  <description>Sample Tick</description>
+  <created-at>2016-04-27T14:44:10Z</created-at>
+  <updated-at>2016-04-27T14:44:10Z</updated-at>
+  <slug>ticks-sample</slug>
+  <group-slug>skin_conditions</group-slug>
+  <video-required>false</video-required>
+  <phone-required>false</phone-required>
+  <digest>5480744abe6bbbf1c767b4f24d1f3d10</digest>
+  <deleted-at nil="true"/>
+  <cloned-export-id nil="true"/>
+  <thoughts>
+    <thought>
+      <formula>(and(is q4 'gay)(is patient_gender 'female))</formula>
+      <zid>4</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>User is female and thinks they might be gay</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(and (is q4 'notgay)(is patient_gender 'female))</formula>
+      <zid>6</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>user thinks they are straight</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(and(is q4 'unsure)(is patient_gender 'female))</formula>
+      <zid>8</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>user is female and unsure</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(and(is q4 'gay)(is patient_gender 'male))</formula>
+      <zid>10</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>user is male and thinks they are gay</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(and(is q4 'notgay)(is patient_gender 'male))</formula>
+      <zid>12</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>user is male and straight</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(and(is q4 'unsure)(is patient_gender 'male))</formula>
+      <zid>14</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <comment-str>user is male and unsure</comment-str>
+      <category nil="true"/>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>1</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>9</order-float>
+      <comment-str>Start Patient Workflow</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>2</zid>
+      <parent-id nil="true"/>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>10</order-float>
+      <comment-str>START doctor_part</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(yesto q13)</formula>
+      <zid>15</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Was bitten by a tick</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q35)</formula>
+      <zid>17</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Able to upload photo</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q43)</formula>
+      <zid>19</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Able to measure temperature</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q63)</formula>
+      <zid>21</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <comment-str>No medication allergies</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>23</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <comment-str>ALWAYS REFER-OUT</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>!(or (&lt; patient_age 8)(&gt; patient_age 65))</formula>
+      <zid>25</zid>
+      <parent-id>23</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Age limits (8-65)</comment-str>
+      <category>patient</category>
+      <be-seen>true</be-seen>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>!(noto q13)</formula>
+      <zid>27</zid>
+      <parent-id>23</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Was not bitten by a tick</comment-str>
+      <category>patient</category>
+      <be-seen>true</be-seen>
+      <deleted-at nil="true"/>
+      <thought-type>noto</thought-type>
+    </thought>
+    <thought>
+      <formula>!(&gt; q47 101)</formula>
+      <zid>29</zid>
+      <parent-id>23</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Temperature over 101</comment-str>
+      <category>patient</category>
+      <be-seen>true</be-seen>
+      <deleted-at nil="true"/>
+      <thought-type>other</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>31</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>6</order-float>
+      <comment-str>PHONE VIDEO ENABLED</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>!(and (yesto q29)(yesto q31))</formula>
+      <zid>33</zid>
+      <parent-id>31</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Redness and swelling, trigger-phone</comment-str>
+      <category>patient</category>
+      <be-seen>true</be-seen>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>!(noto q35)</formula>
+      <zid>35</zid>
+      <parent-id>31</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Unable to upload photo, trigger-video</comment-str>
+      <category>patient</category>
+      <be-seen>true</be-seen>
+      <deleted-at nil="true"/>
+      <thought-type>noto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>37</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>7</order-float>
+      <comment-str>NO PHONE VIDEO</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(feature? 'patient_type_text')</formula>
+      <zid>39</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Patient type text feature activation</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>feature</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>41</zid>
+      <parent-id>1</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>8</order-float>
+      <comment-str>PATIENT SUMMARY</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(&lt; patient_age 18)</formula>
+      <zid>43</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Patient is minor</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>other</thought-type>
+    </thought>
+    <thought>
+      <formula>(and (yesto q29)(yesto q31))</formula>
+      <zid>45</zid>
+      <parent-id>37</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Redness and swelling</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(noto q35)</formula>
+      <zid>47</zid>
+      <parent-id>37</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Unable to upload photo</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>noto</thought-type>
+    </thought>
+    <thought>
+      <formula>(or (noto q35)(and (yesto q29)(yesto q31)))</formula>
+      <zid>49</zid>
+      <parent-id>37</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Triggers synchronous note formatting</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>unknown</thought-type>
+    </thought>
+    <thought>
+      <formula>(or (yesto q27)(yesto q29)(yesto q31))</formula>
+      <zid>51</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Has bull's-eye rash, redness, or swelling</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(or (noto q27)(noto q29)(noto q31))</formula>
+      <zid>53</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <comment-str>Denied symptoms</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(noto q43)</formula>
+      <zid>55</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <comment-str>Unable to take temperature</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>noto</thought-type>
+    </thought>
+    <thought>
+      <formula>(or (yesto q57)(yesto q59)(yesto q61))</formula>
+      <zid>57</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>6</order-float>
+      <comment-str>Notes allergies</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q27)</formula>
+      <zid>59</zid>
+      <parent-id>41</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>7</order-float>
+      <comment-str>Bull's-eye rash present</comment-str>
+      <category>patient</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>61</zid>
+      <parent-id>2</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>ASSESSMENTS</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(yesto c1)</formula>
+      <zid>63</zid>
+      <parent-id>61</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Deer tick bite - Erythema migrans</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto c2)</formula>
+      <zid>65</zid>
+      <parent-id>61</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Tick bite - species uncertain</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto c7)</formula>
+      <zid>67</zid>
+      <parent-id>61</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Unable to diagnose</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto c11)</formula>
+      <zid>69</zid>
+      <parent-id>61</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <comment-str>Unable to contact patient by phone/video</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto c15)</formula>
+      <zid>71</zid>
+      <parent-id>61</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <comment-str>Unable to diagnose - phone/video interview</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>73</zid>
+      <parent-id>2</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>MEDICATION FILTERING</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(yesto c1)</formula>
+      <zid>75</zid>
+      <parent-id>73</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Deer tick bite - Erythema migrans</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(isnt q59 'yes)</formula>
+      <zid>77</zid>
+      <parent-id>75</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>No doxycycline allergy</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>other</thought-type>
+    </thought>
+    <thought>
+      <formula>(isnt q61 'yes)</formula>
+      <zid>79</zid>
+      <parent-id>75</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>No amoxicillin allergy</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>other</thought-type>
+    </thought>
+    <thought>
+      <formula>(isnt q57 'yes)</formula>
+      <zid>81</zid>
+      <parent-id>75</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>No cefuroxime allergy</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>other</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>83</zid>
+      <parent-id>2</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>OTC MEDICATIONS</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(yesto q91)</formula>
+      <zid>85</zid>
+      <parent-id>83</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Calamine</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>87</zid>
+      <parent-id>2</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <comment-str>RX MEDICATIONS</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(or (yesto q95)(yesto q99)(yesto q103))</formula>
+      <zid>89</zid>
+      <parent-id>87</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Rx Medication prescribed</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>multiple_question</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q95)</formula>
+      <zid>91</zid>
+      <parent-id>87</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <comment-str>Doxycycline</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q99)</formula>
+      <zid>93</zid>
+      <parent-id>87</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <comment-str>Amoxicillin</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>(yesto q103)</formula>
+      <zid>95</zid>
+      <parent-id>87</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <comment-str>Cefuroxime</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+    <thought>
+      <formula>t</formula>
+      <zid>97</zid>
+      <parent-id>2</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <comment-str>PATIENT EDUCATION</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type nil="true"/>
+    </thought>
+    <thought>
+      <formula>(yesto q85)</formula>
+      <zid>99</zid>
+      <parent-id>97</parent-id>
+      <order-int nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <comment-str>Instructions for removing tick</comment-str>
+      <category>doctor</category>
+      <be-seen nil="true"/>
+      <deleted-at nil="true"/>
+      <thought-type>yesto</thought-type>
+    </thought>
+  </thoughts>
+  <fragments>
+    <fragment>
+      <text-str>&lt;p&gt;If you find a tick attached to your skin, there are several tick removal devices on the market, but a plain set of fine-tipped tweezers will remove a tick quite effectively. Use the tweezers to:&lt;ul&gt;&lt;li&gt;Grasp the tick as close to the skin's surface as possible.&lt;/li&gt;&lt;li&gt;Pull upward with steady, even pressure. &lt;b&gt;Don't twist or jerk the tick;&lt;/b&gt; this can cause the mouth-parts to break off and remain in the skin. If this happens, remove the mouth-parts with tweezers. If you are unable to remove the mouth easily with clean tweezers, leave it alone and let the skin heal.&lt;/li&gt;&lt;li&gt;After removing the tick, thoroughly clean the bite area and your hands with rubbing alcohol, an iodine scrub, or soap and water.&lt;/li&gt;&lt;li&gt;Avoid folklore remedies such as 'painting' the tick with nail polish or petroleum jelly, or using heat to make the tick detach from the skin. Your goal is to remove the tick as quickly as possible--not waiting for it to detach.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you develop a rash or fever within several weeks of removing a tick, go to a clinic for evaluation. Be sure to tell  the clinician about your recent tick bite:   when the bite occurred, and where you were when you were bitten.</text-str>
+      <zid>161</zid>
+      <thought-id>99</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>67</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;DrugDescription&gt;cefuroxime axetil (Ceftin) 500mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;500&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;28&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth two times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;0173-0394-00&lt;/NDC&gt;</text-str>
+      <zid>159</zid>
+      <thought-id>95</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>78</order-float>
+      <section>prescriptions</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Cefuroxime&lt;/b&gt;. Take one tablet by mouth two times a day for 14 days.</text-str>
+      <zid>157</zid>
+      <thought-id>95</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>66</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;DrugDescription&gt;amoxicillin 500mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;500&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;42&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth three times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;66336029330&lt;/NDC&gt;</text-str>
+      <zid>155</zid>
+      <thought-id>93</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>77</order-float>
+      <section>prescriptions</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Amoxicillin&lt;/b&gt;. Take one tablet by mouth three times a day for 14 days.</text-str>
+      <zid>153</zid>
+      <thought-id>93</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>65</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;DrugDescription&gt;doxycycline Hyclate (Vibramycin) 100mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;100&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;28&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth two times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;69095050&lt;/NDC&gt;</text-str>
+      <zid>151</zid>
+      <thought-id>91</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>76</order-float>
+      <section>prescriptions</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Doxycycline&lt;/b&gt;.  Take one tablet by mouth two times a day for 14 days.</text-str>
+      <zid>149</zid>
+      <thought-id>91</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>64</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;I am prescribing:</text-str>
+      <zid>147</zid>
+      <thought-id>89</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>63</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Calamine&lt;/b&gt; as needed.  This is an over-the-counter medication that does not require a prescription.</text-str>
+      <zid>145</zid>
+      <thought-id>85</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>62</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;I am recommending:</text-str>
+      <zid>143</zid>
+      <thought-id>85</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>61</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;Based on the information you provided during our conversation, I am unable to diagnose and treat you today. Please call our [customer_name] priority line for a scheduler to assist you with arranging an appointment. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>141</zid>
+      <thought-id>71</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>60</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;Based on the information you provided during your interview, a conversation with a [customer_name] [provider_noun] was required in order to diagnose and treat you. I attempted to contact you several times but have not been able to reach you. For this reason, I cannot safely provide you with treatment recommendations at this time. Because we care about your health, please be seen in a clinic or urgent care to determine the care that is best for you. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>139</zid>
+      <thought-id>69</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>59</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;Based on the information you have provided, I am unable to diagnose and treat you without additional information. A more complete health history, examination, and testing are possibly needed. Because we care about your health, please be seen in a clinic or urgent care to determine the best treatment for you. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>137</zid>
+      <thought-id>67</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>58</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;Based on the information you provided, you likely have a &lt;b&gt;tick bite from an undetermined species&lt;/b&gt;.</text-str>
+      <zid>135</zid>
+      <thought-id>65</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>57</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;Based on the information you provided, you likely have a &lt;b&gt;Deer tick bite with development of a bull's-eye rash&lt;/b&gt;.</text-str>
+      <zid>133</zid>
+      <thought-id>63</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>56</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>,</text-str>
+      <zid>131</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>55</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_first_name}</text-str>
+      <zid>129</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>54</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>Dear</text-str>
+      <zid>127</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>53</order-float>
+      <section>doctor_part</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;/font&gt;</text-str>
+      <zid>125</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>51</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{Allergy Free Text}</text-str>
+      <zid>123</zid>
+      <thought-id>21</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>50</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;/font&gt;&lt;p&gt;Patient free text response:&lt;font color='red'&gt;</text-str>
+      <zid>121</zid>
+      <thought-id>21</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>49</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{Allergies}</text-str>
+      <zid>119</zid>
+      <thought-id>57</thought-id>
+      <formula>(yesto x)</formula>
+      <cpid>91</cpid>
+      <order-float>48</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;ALLERGIES:&lt;/b&gt;&lt;p&gt;&lt;font color='red'&gt;</text-str>
+      <zid>117</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>47</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;CURRENT MEDICATIONS:&lt;/b&gt;&lt;p&gt;No current medications</text-str>
+      <zid>115</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>46</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>[Weight]</text-str>
+      <zid>113</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>45</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Weight&lt;/b&gt;:</text-str>
+      <zid>111</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>44</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>[Temp]</text-str>
+      <zid>109</zid>
+      <thought-id>19</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>43</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;Temperature&lt;/b&gt;:</text-str>
+      <zid>107</zid>
+      <thought-id>19</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>42</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>temperature.</text-str>
+      <zid>105</zid>
+      <thought-id>55</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>41</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{his_her}</text-str>
+      <zid>103</zid>
+      <thought-id>55</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>40</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>was unable to measure</text-str>
+      <zid>101</zid>
+      <thought-id>55</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>39</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_name}</text-str>
+      <zid>99</zid>
+      <thought-id>55</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>38</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>.</text-str>
+      <zid>97</zid>
+      <thought-id>53</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>37</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>[Denied symptoms]</text-str>
+      <zid>95</zid>
+      <thought-id>53</thought-id>
+      <formula>(noto x)</formula>
+      <cpid>91</cpid>
+      <order-float>36</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>denies</text-str>
+      <zid>93</zid>
+      <thought-id>53</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>35</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{He_She}</text-str>
+      <zid>91</zid>
+      <thought-id>53</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>34</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>.</text-str>
+      <zid>89</zid>
+      <thought-id>51</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>33</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>[Symptoms]</text-str>
+      <zid>87</zid>
+      <thought-id>51</thought-id>
+      <formula>(yesto x)</formula>
+      <cpid>91</cpid>
+      <order-float>32</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>The affected area of the skin</text-str>
+      <zid>85</zid>
+      <thought-id>51</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>31</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;</text-str>
+      <zid>83</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>30</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{free text}</text-str>
+      <zid>81</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>29</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;City and state where the tick bite occurred as reported by the patient (free text):</text-str>
+      <zid>79</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>28</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>like an image of a blacklegged deer tick.</text-str>
+      <zid>77</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>27</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str nil="true"/>
+      <zid>75</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>26</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{He_She}</text-str>
+      <zid>73</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>25</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>was bitten by a tick.</text-str>
+      <zid>71</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>24</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_name}</text-str>
+      <zid>69</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>23</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;</text-str>
+      <zid>67</zid>
+      <thought-id>15</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>22</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>skin.</text-str>
+      <zid>65</zid>
+      <thought-id>17</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>21</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{his_her}</text-str>
+      <zid>63</zid>
+      <thought-id>17</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>20</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>uploaded images of the affected area of</text-str>
+      <zid>61</zid>
+      <thought-id>17</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>19</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_name}</text-str>
+      <zid>59</zid>
+      <thought-id>17</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>18</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;</text-str>
+      <zid>57</zid>
+      <thought-id>17</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>17</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;/font&gt;&lt;/ul&gt;</text-str>
+      <zid>55</zid>
+      <thought-id>49</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>16</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;li&gt;Unable or prefers not to upload photo&lt;/li&gt;</text-str>
+      <zid>53</zid>
+      <thought-id>35</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>15</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;li&gt;Affected area of skin is red and swollen&lt;/li&gt;</text-str>
+      <zid>51</zid>
+      <thought-id>33</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>14</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;ul&gt;&lt;font color = 'red'&gt;</text-str>
+      <zid>49</zid>
+      <thought-id>49</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>13</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;&lt;b&gt;A synchronous visit is necessary because the patient reported the following abnormal symptoms&lt;/b&gt;:</text-str>
+      <zid>47</zid>
+      <thought-id>49</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>12</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>&lt;p&gt;The patient is a &lt;b&gt;minor&lt;/b&gt; and has consent from a parent/guardian to receive medical care.</text-str>
+      <zid>45</zid>
+      <thought-id>43</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>11</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_type_text}</text-str>
+      <zid>43</zid>
+      <thought-id>39</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>10</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str nil="true"/>
+      <zid>41</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>9</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>who initiated a [visit_noun]</text-str>
+      <zid>39</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>8</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_gender}</text-str>
+      <zid>37</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>7</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_dob}</text-str>
+      <zid>33</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>( DOB:</text-str>
+      <zid>31</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>year old</text-str>
+      <zid>29</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_age}</text-str>
+      <zid>27</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>is a</text-str>
+      <zid>25</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>You told us that the affected area of your skin is red and swollen.  For this reason, I cannot safely provide online care for you today.  Please be seen today in a clinic or urgent care to determine the best treatment for you. You will not  be charged for this [visit_noun]. Thanks for using [visit_brand]</text-str>
+      <zid>21</zid>
+      <thought-id>33</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>72</order-float>
+      <section>be_seen</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>You have told us that you have an elevated temperature. This could indicate a more serious health problem. For this reason, we cannot safely provide online care for you today. Please be seen in a clinic or urgent care for further evaluation today.  You will not be charged for this [visit_noun].</text-str>
+      <zid>19</zid>
+      <thought-id>29</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>71</order-float>
+      <section>be_seen</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>You told us that you were not bitten by a tick. For this reason, you do not need medication to prevent Lyme Disease. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>17</zid>
+      <thought-id>27</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>70</order-float>
+      <section>be_seen</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>[visit_brand] has determined that we can safely provide online care to patients between the ages of 8 and 65 years for tick bites. Because you do not meet the age guidelines for tick bites, we cannot safely provide online care for you today.  You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>15</zid>
+      <thought-id>25</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>69</order-float>
+      <section>be_seen</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>START DOCTOR PART</text-str>
+      <zid>14</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>52</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>{patient_name}</text-str>
+      <zid>13</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>0</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>Frag START BE SEEN</text-str>
+      <zid>4</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>68</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>End of Frags</text-str>
+      <zid>10</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>79</order-float>
+      <section>prescriptions</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>PRESCRIPTIONS_START</text-str>
+      <zid>8</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>75</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>Frag START DIFFERENTIAL DIAGNOSIS</text-str>
+      <zid>6</zid>
+      <thought-id>2</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>74</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>Because you were unable to upload a photo of your skin, I am unable to safely treat you online. Please be seen in a clinic or urgent care to receive a diagnosis and treatment plan. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text-str>
+      <zid>23</zid>
+      <thought-id>35</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>73</order-float>
+      <section>be_seen</section>
+      <deleted-at nil="true"/>
+    </fragment>
+    <fragment>
+      <text-str>)</text-str>
+      <zid>35</zid>
+      <thought-id>1</thought-id>
+      <formula nil="true"/>
+      <cpid>91</cpid>
+      <order-float>6</order-float>
+      <section>patient_info</section>
+      <deleted-at nil="true"/>
+    </fragment>
+  </fragments>
+  <options>
+    <option>
+      <zid>85</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>83</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>81</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>79</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>77</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>75</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>73</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>71</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>69</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>67</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>65</zid>
+      <fragment>none of these</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>63</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>61</zid>
+      <fragment>penicillin/amoxicillin/augmentin</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>59</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>57</zid>
+      <fragment>doxycycline</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>55</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>53</zid>
+      <fragment>cefuroxime/ceftriaxone/keflex</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>51</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>49</zid>
+      <fragment>no</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>45</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>47</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>45</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>43</zid>
+      <fragment>no</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>39</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>41</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>39</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>37</zid>
+      <fragment>swelling</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>33</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>35</zid>
+      <fragment>is swollen</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>33</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>31</zid>
+      <fragment>redness</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>27</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>29</zid>
+      <fragment>is red</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>27</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>25</zid>
+      <fragment>having a bull's-eye rash</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>21</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>23</zid>
+      <fragment>has a bull's-eye rash</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>21</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>19</zid>
+      <fragment>is not sure if the tick looked</fragment>
+      <value>notsure</value>
+      <choice>I'm not sure</choice>
+      <parent-id>13</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>17</zid>
+      <fragment>states the tick did not look</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>13</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>15</zid>
+      <fragment>states the tick looked</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>13</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>11</zid>
+      <fragment>no</fragment>
+      <value>no</value>
+      <choice>No</choice>
+      <parent-id>7</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>9</zid>
+      <fragment>yes</fragment>
+      <value>yes</value>
+      <choice>Yes</choice>
+      <parent-id>7</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>5</zid>
+      <fragment>&lt;b&gt;for evaluation of a tick bite.&lt;/b&gt;</fragment>
+      <value>reason</value>
+      <choice>Sample protocol (tick bite)</choice>
+      <parent-id>3</parent-id>
+      <question-id nil="true"/>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>83</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>103</question-id>
+      <comment-str>Rx Medications: Cefuroxime</comment-str>
+      <cpid>91</cpid>
+      <order-float>41</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>79</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>99</question-id>
+      <comment-str>Rx Medications: Amoxicillin</comment-str>
+      <cpid>91</cpid>
+      <order-float>40</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>75</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>95</question-id>
+      <comment-str>Rx Medications: Doxycycline</comment-str>
+      <cpid>91</cpid>
+      <order-float>39</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>71</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>91</question-id>
+      <comment-str>OTC Medications: Calamine</comment-str>
+      <cpid>91</cpid>
+      <order-float>38</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>67</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>85</question-id>
+      <comment-str>Patient education</comment-str>
+      <cpid>91</cpid>
+      <order-float>37</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>63</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>63</question-id>
+      <comment-str>PMH: Medication allergies: None</comment-str>
+      <cpid>91</cpid>
+      <order-float>36</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>59</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>61</question-id>
+      <comment-str>PMH: Medication allergies: Penicillin/Amoxicillin/Augmentin</comment-str>
+      <cpid>91</cpid>
+      <order-float>35</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>55</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>59</question-id>
+      <comment-str>PMH: Medication allergies: Doxycycline</comment-str>
+      <cpid>91</cpid>
+      <order-float>34</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>51</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>57</question-id>
+      <comment-str>PMH: Medication allergies: Cefuroxime/Ceftriaxone/Keflex</comment-str>
+      <cpid>91</cpid>
+      <order-float>33</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>45</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>43</question-id>
+      <comment-str>HPI: Temperature opt in</comment-str>
+      <cpid>91</cpid>
+      <order-float>32</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>39</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>35</question-id>
+      <comment-str>HPI: Photo opt in</comment-str>
+      <cpid>91</cpid>
+      <order-float>31</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>33</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>31</question-id>
+      <comment-str>HPI: Symptoms: Swelling</comment-str>
+      <cpid>91</cpid>
+      <order-float>30</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>27</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>29</question-id>
+      <comment-str>HPI: Symptoms: Redness</comment-str>
+      <cpid>91</cpid>
+      <order-float>29</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>21</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>27</question-id>
+      <comment-str>HPI: Symptoms: Bull's-eye rash</comment-str>
+      <cpid>91</cpid>
+      <order-float>28</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>13</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>17</question-id>
+      <comment-str>HPI: Tick images</comment-str>
+      <cpid>91</cpid>
+      <order-float>27</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>7</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>13</question-id>
+      <comment-str>HPI: Tick bite</comment-str>
+      <cpid>91</cpid>
+      <order-float>26</order-float>
+      <deleted-at nil="true"/>
+    </option>
+    <option>
+      <zid>3</zid>
+      <fragment nil="true"/>
+      <value nil="true"/>
+      <choice nil="true"/>
+      <parent-id nil="true"/>
+      <question-id>5</question-id>
+      <comment-str>Reason for visit</comment-str>
+      <cpid>91</cpid>
+      <order-float>25</order-float>
+      <deleted-at nil="true"/>
+    </option>
+  </options>
+  <assessments>
+    <assessment>
+      <zid>17</zid>
+      <icd nil="true"/>
+      <thought-id>49</thought-id>
+      <parent-id>15</parent-id>
+      <points>15</points>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>13</zid>
+      <icd nil="true"/>
+      <thought-id>49</thought-id>
+      <parent-id>11</parent-id>
+      <points>15</points>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>9</zid>
+      <icd nil="true"/>
+      <thought-id>1</thought-id>
+      <parent-id>7</parent-id>
+      <points>15</points>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>5</zid>
+      <icd nil="true"/>
+      <thought-id>1</thought-id>
+      <parent-id>2</parent-id>
+      <points>15</points>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>3</zid>
+      <icd nil="true"/>
+      <thought-id>59</thought-id>
+      <parent-id>1</parent-id>
+      <points>15</points>
+      <comment-str nil="true"/>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>15</zid>
+      <icd>R69</icd>
+      <thought-id nil="true"/>
+      <parent-id nil="true"/>
+      <points nil="true"/>
+      <comment-str>Unable to diagnose - phone/video interview</comment-str>
+      <cpid>91</cpid>
+      <order-float>9</order-float>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>11</zid>
+      <icd>R69</icd>
+      <thought-id nil="true"/>
+      <parent-id nil="true"/>
+      <points nil="true"/>
+      <comment-str>Unable to contact patient by phone/video</comment-str>
+      <cpid>91</cpid>
+      <order-float>8</order-float>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>7</zid>
+      <icd>R69</icd>
+      <thought-id nil="true"/>
+      <parent-id nil="true"/>
+      <points nil="true"/>
+      <comment-str>Unable to diagnose</comment-str>
+      <cpid>91</cpid>
+      <order-float>7</order-float>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>2</zid>
+      <icd>T07</icd>
+      <thought-id nil="true"/>
+      <parent-id nil="true"/>
+      <points nil="true"/>
+      <comment-str>Tick bite - species uncertain</comment-str>
+      <cpid>91</cpid>
+      <order-float>6</order-float>
+      <deleted-at nil="true"/>
+    </assessment>
+    <assessment>
+      <zid>1</zid>
+      <icd>A69.20</icd>
+      <thought-id nil="true"/>
+      <parent-id nil="true"/>
+      <points nil="true"/>
+      <comment-str>Deer tick bite - Erythema migrans</comment-str>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <deleted-at nil="true"/>
+    </assessment>
+  </assessments>
+  <questions>
+    <question>
+      <zid>103</zid>
+      <comment-str nil="true"/>
+      <parent-id>101</parent-id>
+      <thought-id nil="true"/>
+      <label>Cefuroxime axetil (Ceftin) 500 mg oral tablet</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>99</zid>
+      <comment-str nil="true"/>
+      <parent-id>97</parent-id>
+      <thought-id nil="true"/>
+      <label>Amoxicillin 500 mg oral tablet</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>95</zid>
+      <comment-str nil="true"/>
+      <parent-id>93</parent-id>
+      <thought-id nil="true"/>
+      <label>Doxycycline (Vibramycin) 100 mg oral tablet</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>91</zid>
+      <comment-str nil="true"/>
+      <parent-id>87</parent-id>
+      <thought-id nil="true"/>
+      <label>Calamine</label>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>89</zid>
+      <comment-str nil="true"/>
+      <parent-id>87</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;h3&gt;OTC MEDICATIONS&lt;/h3&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>85</zid>
+      <comment-str nil="true"/>
+      <parent-id>81</parent-id>
+      <thought-id nil="true"/>
+      <label>Instructions for safely removing a tick from skin</label>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>83</zid>
+      <comment-str nil="true"/>
+      <parent-id>81</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;h3&gt;PATIENT EDUCATION&lt;/h3&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>77</zid>
+      <comment-str nil="true"/>
+      <parent-id>75</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;h3&gt;RX MEDICATIONS&lt;/h3&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>73</zid>
+      <comment-str nil="true"/>
+      <parent-id>69</parent-id>
+      <thought-id nil="true"/>
+      <label>The Infectious Disease Society of America (IDSA) does not generally recommend antimicrobial prophylaxis for prevention of Lyme disease after a recognized tick bite. However, in areas that are highly endemic for Lyme disease, a single dose of doxycycline may be offered to adult patients (200 mg) who are not pregnant and to children older than 8 years of age (4 mg/kg up to a maximum dose of 200 mg) when all of the following circumstances exist:</label>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>71</zid>
+      <comment-str nil="true"/>
+      <parent-id>69</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;h3&gt;CLINICAL DECISION SUPPORT&lt;/h3&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>67</zid>
+      <comment-str nil="true"/>
+      <parent-id>65</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Please list the names of any other medications to which you are allergic. If you do not have any medication allergies, please type 'none'.&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>double-line</name>
+      </layout>
+    </question>
+    <question>
+      <zid>61</zid>
+      <comment-str nil="true"/>
+      <parent-id>53</parent-id>
+      <thought-id nil="true"/>
+      <label>Penicillin/Amoxicillin/Augmentin</label>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>63</zid>
+      <comment-str nil="true"/>
+      <parent-id>53</parent-id>
+      <thought-id nil="true"/>
+      <label>None of these</label>
+      <cpid>91</cpid>
+      <order-float>5</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>59</zid>
+      <comment-str nil="true"/>
+      <parent-id>53</parent-id>
+      <thought-id nil="true"/>
+      <label>Doxycycline</label>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>57</zid>
+      <comment-str nil="true"/>
+      <parent-id>53</parent-id>
+      <thought-id nil="true"/>
+      <label>Cefuroxime/Ceftriaxone/Keflex</label>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>yes-no</name>
+      </layout>
+    </question>
+    <question>
+      <zid>55</zid>
+      <comment-str nil="true"/>
+      <parent-id>53</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Are you allergic to any of these antibiotics?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>51</zid>
+      <comment-str nil="true"/>
+      <parent-id>49</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Please enter your weight (in lbs):&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>integer</name>
+      </layout>
+    </question>
+    <question>
+      <zid>47</zid>
+      <comment-str nil="true"/>
+      <parent-id>45</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;What is your temperature in Fahrenheit?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>decimal</name>
+      </layout>
+    </question>
+    <question>
+      <zid>43</zid>
+      <comment-str nil="true"/>
+      <parent-id>41</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Are you able to take your temperature now?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio-single</name>
+      </layout>
+    </question>
+    <question>
+      <zid>39</zid>
+      <comment-str nil="true"/>
+      <parent-id>37</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Please upload 2 to 3 photos for your clinician to review.&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>image</name>
+      </layout>
+    </question>
+    <question>
+      <zid>35</zid>
+      <comment-str nil="true"/>
+      <parent-id>33</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;A photo of the affected area of your skin is required in order to diagnose and treat you. Are you able to take and upload a photo of your condition?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>31</zid>
+      <comment-str nil="true"/>
+      <parent-id>23</parent-id>
+      <thought-id nil="true"/>
+      <label>Swelling</label>
+      <cpid>91</cpid>
+      <order-float>4</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>29</zid>
+      <comment-str nil="true"/>
+      <parent-id>23</parent-id>
+      <thought-id nil="true"/>
+      <label>Redness</label>
+      <cpid>91</cpid>
+      <order-float>3</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>27</zid>
+      <comment-str nil="true"/>
+      <parent-id>23</parent-id>
+      <thought-id nil="true"/>
+      <label>A rash that resembles a target</label>
+      <cpid>91</cpid>
+      <order-float>2</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>25</zid>
+      <comment-str nil="true"/>
+      <parent-id>23</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Do you have any of these symptoms?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>label</name>
+      </layout>
+    </question>
+    <question>
+      <zid>21</zid>
+      <comment-str nil="true"/>
+      <parent-id>19</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Where were you at the time you were bitten by a tick? Please enter the city and state below.&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>single-line</name>
+      </layout>
+    </question>
+    <question>
+      <zid>17</zid>
+      <comment-str nil="true"/>
+      <parent-id>15</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Did the tick look like one of these images?&lt;/b&gt;&lt;p&gt;&lt;/p&gt;&lt;img src="/assets/Blacklegged_Deer_Tick.jpg" alt="Black Legged Deer Tick"&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>13</zid>
+      <comment-str nil="true"/>
+      <parent-id>11</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Have you bitten by a tick?&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>5</zid>
+      <comment-str nil="true"/>
+      <parent-id>1</parent-id>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;Please select the category that fits the reason for your [visit_noun] today.&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float>1</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+    <question>
+      <zid>4</zid>
+      <comment-str nil="true"/>
+      <parent-id nil="true"/>
+      <thought-id nil="true"/>
+      <label>&lt;b&gt;How can we help you today?&lt;b&gt;&lt;/b&gt;&lt;/b&gt;</label>
+      <cpid>91</cpid>
+      <order-float nil="true"/>
+      <category nil="true"/>
+      <deleted-at nil="true"/>
+      <type>Question</type>
+      <layout>
+        <name>radio</name>
+      </layout>
+    </question>
+  </questions>
+  <forms>
+    <form>
+      <zid>101</zid>
+      <comment-str>Cefuroxime axetil</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>81</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>49</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>97</zid>
+      <comment-str>Amoxicillin</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>79</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>48</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>93</zid>
+      <comment-str>Doxycycline</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>77</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>47</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>65</zid>
+      <comment-str>PMH: Medication allergy free text</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>21</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>41</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>45</zid>
+      <comment-str>HPI: Temperature</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>19</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>38</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>37</zid>
+      <comment-str>HPI: Photo upload</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>17</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>36</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>19</zid>
+      <comment-str>HPI: City and state where bite occurred</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>15</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>33</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>15</zid>
+      <comment-str>HPI: Tick images</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>15</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>32</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>75</zid>
+      <comment-str>Rx Medications</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>2</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>46</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>87</zid>
+      <comment-str>OTC Medications</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>2</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>45</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>81</zid>
+      <comment-str>Patient Education</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>2</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>44</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>69</zid>
+      <comment-str>Clinical Decision Support</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>2</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>43</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>9</zid>
+      <comment-str>Start Doctor Part</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>2</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>42</order-float>
+      <category>doctor</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>53</zid>
+      <comment-str>PMH: Medication allergies</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>40</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>49</zid>
+      <comment-str>Weight input</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>39</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>41</zid>
+      <comment-str>HPI: Temperature opt in</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>37</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>33</zid>
+      <comment-str>HPI: Photo opt in</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>35</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>23</zid>
+      <comment-str>HPI: Symptoms</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>34</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>11</zid>
+      <comment-str>HPI: Tick bite</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>31</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+    <form>
+      <zid>1</zid>
+      <comment-str>Start Patient</comment-str>
+      <parent-id nil="true"/>
+      <thought-id>1</thought-id>
+      <label/>
+      <cpid>91</cpid>
+      <order-float>0</order-float>
+      <category>patient</category>
+      <deleted-at nil="true"/>
+      <type>Form</type>
+      <layout>
+        <name>form</name>
+      </layout>
+    </form>
+  </forms>
+  <fragments-questions>
+    <fragments-question>
+      <fragment-id>41</fragment-id>
+      <question-id>5</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>75</fragment-id>
+      <question-id>17</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>81</fragment-id>
+      <question-id>21</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>87</fragment-id>
+      <question-id>29</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>95</fragment-id>
+      <question-id>29</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>87</fragment-id>
+      <question-id>31</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>95</fragment-id>
+      <question-id>31</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>87</fragment-id>
+      <question-id>35</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>95</fragment-id>
+      <question-id>35</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>109</fragment-id>
+      <question-id>47</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>113</fragment-id>
+      <question-id>51</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>119</fragment-id>
+      <question-id>57</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>119</fragment-id>
+      <question-id>59</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>119</fragment-id>
+      <question-id>61</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+    <fragments-question>
+      <fragment-id>123</fragment-id>
+      <question-id>67</question-id>
+      <cpid>91</cpid>
+    </fragments-question>
+  </fragments-questions>
+</clinical-protocol>
+</medical_content>

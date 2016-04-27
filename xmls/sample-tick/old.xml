@@ -1,0 +1,2172 @@
+<?xml version="1.0"?>
+<medical_content>
+  <assessment>
+    <id>1</id>
+    <order>1</order>
+    <type>list</type>
+    <comment>Deer tick bite - Erythema migrans</comment>
+    <icd>A69.20</icd>
+    <chi>(3)</chi>
+    <thought/>
+    <points/>
+  </assessment>
+  <assessment>
+    <id>2</id>
+    <order>2</order>
+    <type>list</type>
+    <comment>Tick bite - species uncertain</comment>
+    <icd>T07</icd>
+    <chi>(5)</chi>
+    <thought/>
+    <points/>
+  </assessment>
+  <assessment>
+    <id>3</id>
+    <order/>
+    <type>item</type>
+    <comment/>
+    <icd/>
+    <chi/>
+    <thought>59</thought>
+    <points>15</points>
+  </assessment>
+  <assessment>
+    <id>5</id>
+    <order/>
+    <type>item</type>
+    <comment/>
+    <icd/>
+    <chi/>
+    <thought>1</thought>
+    <points>15</points>
+  </assessment>
+  <assessment>
+    <id>7</id>
+    <order>3</order>
+    <type>list</type>
+    <comment>Unable to diagnose</comment>
+    <icd>R69</icd>
+    <chi>(9)</chi>
+    <thought/>
+    <points/>
+  </assessment>
+  <assessment>
+    <id>9</id>
+    <order/>
+    <type>item</type>
+    <comment/>
+    <icd/>
+    <chi/>
+    <thought>1</thought>
+    <points>15</points>
+  </assessment>
+  <assessment>
+    <id>11</id>
+    <order>4</order>
+    <type>list</type>
+    <comment>Unable to contact patient by phone/video</comment>
+    <icd>R69</icd>
+    <chi>(13)</chi>
+    <thought/>
+    <points/>
+  </assessment>
+  <assessment>
+    <id>13</id>
+    <order/>
+    <type>item</type>
+    <comment/>
+    <icd/>
+    <chi/>
+    <thought>49</thought>
+    <points>15</points>
+  </assessment>
+  <assessment>
+    <id>15</id>
+    <order>5</order>
+    <type>list</type>
+    <comment>Unable to diagnose - phone/video interview</comment>
+    <icd>R69</icd>
+    <chi>(17)</chi>
+    <thought/>
+    <points/>
+  </assessment>
+  <assessment>
+    <id>17</id>
+    <order/>
+    <type>item</type>
+    <comment/>
+    <icd/>
+    <chi/>
+    <thought>49</thought>
+    <points>15</points>
+  </assessment>
+  <fragment>
+    <id>4</id>
+    <order>3</order>
+    <text>Frag START BE SEEN</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>6</id>
+    <order>4</order>
+    <text>Frag START DIFFERENTIAL DIAGNOSIS</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>8</id>
+    <order>5</order>
+    <text>PRESCRIPTIONS_START</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>10</id>
+    <order>6</order>
+    <text>End of Frags</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>13</id>
+    <order>9/4</order>
+    <text>{patient_name}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>14</id>
+    <order>11/4</order>
+    <text>START DOCTOR PART</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>15</id>
+    <order>7/2</order>
+    <text>[visit_brand] has determined that we can safely provide online care to patients between the ages of 8 and 65 years for tick bites. Because you do not meet the age guidelines for tick bites, we cannot safely provide online care for you today.  You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>25</thought>
+  </fragment>
+  <fragment>
+    <id>17</id>
+    <order>15/4</order>
+    <text>You told us that you were not bitten by a tick. For this reason, you do not need medication to prevent Lyme Disease. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>27</thought>
+  </fragment>
+  <fragment>
+    <id>19</id>
+    <order>31/8</order>
+    <text>You have told us that you have an elevated temperature. This could indicate a more serious health problem. For this reason, we cannot safely provide online care for you today. Please be seen in a clinic or urgent care for further evaluation today.  You will not be charged for this [visit_noun].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>29</thought>
+  </fragment>
+  <fragment>
+    <id>21</id>
+    <order>63/16</order>
+    <text>You told us that the affected area of your skin is red and swollen.  For this reason, I cannot safely provide online care for you today.  Please be seen today in a clinic or urgent care to determine the best treatment for you. You will not  be charged for this [visit_noun]. Thanks for using [visit_brand]</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>33</thought>
+  </fragment>
+  <fragment>
+    <id>23</id>
+    <order>127/32</order>
+    <text>Because you were unable to upload a photo of your skin, I am unable to safely treat you online. Please be seen in a clinic or urgent care to receive a diagnosis and treatment plan. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>35</thought>
+  </fragment>
+  <fragment>
+    <id>25</id>
+    <order>5/2</order>
+    <text>is a</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>27</id>
+    <order>21/8</order>
+    <text>{patient_age}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>29</id>
+    <order>43/16</order>
+    <text>year old</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>31</id>
+    <order>87/32</order>
+    <text>( DOB:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>33</id>
+    <order>175/64</order>
+    <text>{patient_dob}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>35</id>
+    <order>351/128</order>
+    <text>)</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>37</id>
+    <order>703/256</order>
+    <text>{patient_gender}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>39</id>
+    <order>1407/512</order>
+    <text>who initiated a [visit_noun]</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>41</id>
+    <order>2815/1024</order>
+    <text/>
+    <options>()</options>
+    <option>3</option>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>43</id>
+    <order>5631/2048</order>
+    <text>{patient_type_text}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>39</thought>
+  </fragment>
+  <fragment>
+    <id>45</id>
+    <order>11263/4096</order>
+    <text>&lt;p&gt;The patient is a &lt;b&gt;minor&lt;/b&gt; and has consent from a parent/guardian to receive medical care.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>43</thought>
+  </fragment>
+  <fragment>
+    <id>47</id>
+    <order>22527/8192</order>
+    <text>&lt;p&gt;&lt;b&gt;A synchronous visit is necessary because the patient reported the following abnormal symptoms&lt;/b&gt;:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>49</thought>
+  </fragment>
+  <fragment>
+    <id>49</id>
+    <order>45055/16384</order>
+    <text>&lt;ul&gt;&lt;font color = 'red'&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>49</thought>
+  </fragment>
+  <fragment>
+    <id>51</id>
+    <order>90111/32768</order>
+    <text>&lt;li&gt;Affected area of skin is red and swollen&lt;/li&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>33</thought>
+  </fragment>
+  <fragment>
+    <id>53</id>
+    <order>180223/65536</order>
+    <text>&lt;li&gt;Unable or prefers not to upload photo&lt;/li&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>35</thought>
+  </fragment>
+  <fragment>
+    <id>55</id>
+    <order>360447/131072</order>
+    <text>&lt;/font&gt;&lt;/ul&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>49</thought>
+  </fragment>
+  <fragment>
+    <id>57</id>
+    <order>720895/262144</order>
+    <text>&lt;p&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>17</thought>
+  </fragment>
+  <fragment>
+    <id>59</id>
+    <order>1441791/524288</order>
+    <text>{patient_name}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>17</thought>
+  </fragment>
+  <fragment>
+    <id>61</id>
+    <order>2883583/1048576</order>
+    <text>uploaded images of the affected area of</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>17</thought>
+  </fragment>
+  <fragment>
+    <id>63</id>
+    <order>5767167/2097152</order>
+    <text>{his_her}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>17</thought>
+  </fragment>
+  <fragment>
+    <id>65</id>
+    <order>11534335/4194304</order>
+    <text>skin.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>17</thought>
+  </fragment>
+  <fragment>
+    <id>67</id>
+    <order>23068671/8388608</order>
+    <text>&lt;p&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>69</id>
+    <order>46137343/16777216</order>
+    <text>{patient_name}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>71</id>
+    <order>92274687/33554432</order>
+    <text>was bitten by a tick.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>73</id>
+    <order>184549375/67108864</order>
+    <text>{He_She}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>75</id>
+    <order>369098751/134217728</order>
+    <text/>
+    <options>()</options>
+    <option>13</option>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>77</id>
+    <order>738197503/268435456</order>
+    <text>like an image of a blacklegged deer tick.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>79</id>
+    <order>1476395007/536870912</order>
+    <text>&lt;p&gt;City and state where the tick bite occurred as reported by the patient (free text):</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>81</id>
+    <order>2952790015/1073741824</order>
+    <text>{free text}</text>
+    <options>()</options>
+    <option/>
+    <question>21</question>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>83</id>
+    <order>5905580031/2147483648</order>
+    <text>&lt;p&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>15</thought>
+  </fragment>
+  <fragment>
+    <id>85</id>
+    <order>11811160063/4294967296</order>
+    <text>The affected area of the skin</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>51</thought>
+  </fragment>
+  <fragment>
+    <id>87</id>
+    <order>23622320127/8589934592</order>
+    <text>[Symptoms]</text>
+    <options>(27 33 39)</options>
+    <option/>
+    <question/>
+    <formula>(yesto x)</formula>
+    <thought>51</thought>
+  </fragment>
+  <fragment>
+    <id>89</id>
+    <order>47244640255/17179869184</order>
+    <text>.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>51</thought>
+  </fragment>
+  <fragment>
+    <id>91</id>
+    <order>94489280511/34359738368</order>
+    <text>{He_She}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>53</thought>
+  </fragment>
+  <fragment>
+    <id>93</id>
+    <order>188978561023/68719476736</order>
+    <text>denies</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>53</thought>
+  </fragment>
+  <fragment>
+    <id>95</id>
+    <order>377957122047/137438953472</order>
+    <text>[Denied symptoms]</text>
+    <options>(27 33 39)</options>
+    <option/>
+    <question/>
+    <formula>(noto x)</formula>
+    <thought>53</thought>
+  </fragment>
+  <fragment>
+    <id>97</id>
+    <order>755914244095/274877906944</order>
+    <text>.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>53</thought>
+  </fragment>
+  <fragment>
+    <id>99</id>
+    <order>1511828488191/549755813888</order>
+    <text>{patient_name}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>55</thought>
+  </fragment>
+  <fragment>
+    <id>101</id>
+    <order>3023656976383/1099511627776</order>
+    <text>was unable to measure</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>55</thought>
+  </fragment>
+  <fragment>
+    <id>103</id>
+    <order>6047313952767/2199023255552</order>
+    <text>{his_her}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>55</thought>
+  </fragment>
+  <fragment>
+    <id>105</id>
+    <order>12094627905535/4398046511104</order>
+    <text>temperature.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>55</thought>
+  </fragment>
+  <fragment>
+    <id>107</id>
+    <order>24189255811071/8796093022208</order>
+    <text>&lt;p&gt;&lt;b&gt;Temperature&lt;/b&gt;:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>19</thought>
+  </fragment>
+  <fragment>
+    <id>109</id>
+    <order>48378511622143/17592186044416</order>
+    <text>[Temp]</text>
+    <options>()</options>
+    <option/>
+    <question>47</question>
+    <formula/>
+    <thought>19</thought>
+  </fragment>
+  <fragment>
+    <id>111</id>
+    <order>96757023244287/35184372088832</order>
+    <text>&lt;p&gt;&lt;b&gt;Weight&lt;/b&gt;:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>113</id>
+    <order>193514046488575/70368744177664</order>
+    <text>[Weight]</text>
+    <options>()</options>
+    <option/>
+    <question>51</question>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>115</id>
+    <order>387028092977151/140737488355328</order>
+    <text>&lt;p&gt;&lt;b&gt;CURRENT MEDICATIONS:&lt;/b&gt;&lt;p&gt;No current medications</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>117</id>
+    <order>774056185954303/281474976710656</order>
+    <text>&lt;p&gt;&lt;b&gt;ALLERGIES:&lt;/b&gt;&lt;p&gt;&lt;font color='red'&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>119</id>
+    <order>1548112371908607/562949953421312</order>
+    <text>{Allergies}</text>
+    <options>(51 55 59)</options>
+    <option/>
+    <question/>
+    <formula>(yesto x)</formula>
+    <thought>57</thought>
+  </fragment>
+  <fragment>
+    <id>121</id>
+    <order>3096224743817215/1125899906842624</order>
+    <text>&lt;/font&gt;&lt;p&gt;Patient free text response:&lt;font color='red'&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>21</thought>
+  </fragment>
+  <fragment>
+    <id>123</id>
+    <order>6192449487634431/2251799813685248</order>
+    <text>{Allergy Free Text}</text>
+    <options>()</options>
+    <option/>
+    <question>67</question>
+    <formula/>
+    <thought>21</thought>
+  </fragment>
+  <fragment>
+    <id>125</id>
+    <order>12384898975268863/4503599627370496</order>
+    <text>&lt;/font&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>1</thought>
+  </fragment>
+  <fragment>
+    <id>127</id>
+    <order>23/8</order>
+    <text>Dear</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>129</id>
+    <order>47/16</order>
+    <text>{patient_first_name}</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>131</id>
+    <order>95/32</order>
+    <text>,</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>2</thought>
+  </fragment>
+  <fragment>
+    <id>133</id>
+    <order>191/64</order>
+    <text>&lt;p&gt;Based on the information you provided, you likely have a &lt;b&gt;Deer tick bite with development of a bull's-eye rash&lt;/b&gt;.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>63</thought>
+  </fragment>
+  <fragment>
+    <id>135</id>
+    <order>383/128</order>
+    <text>&lt;p&gt;Based on the information you provided, you likely have a &lt;b&gt;tick bite from an undetermined species&lt;/b&gt;.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>65</thought>
+  </fragment>
+  <fragment>
+    <id>137</id>
+    <order>767/256</order>
+    <text>&lt;p&gt;Based on the information you have provided, I am unable to diagnose and treat you without additional information. A more complete health history, examination, and testing are possibly needed. Because we care about your health, please be seen in a clinic or urgent care to determine the best treatment for you. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>67</thought>
+  </fragment>
+  <fragment>
+    <id>139</id>
+    <order>1535/512</order>
+    <text>&lt;p&gt;Based on the information you provided during your interview, a conversation with a [customer_name] [provider_noun] was required in order to diagnose and treat you. I attempted to contact you several times but have not been able to reach you. For this reason, I cannot safely provide you with treatment recommendations at this time. Because we care about your health, please be seen in a clinic or urgent care to determine the care that is best for you. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>69</thought>
+  </fragment>
+  <fragment>
+    <id>141</id>
+    <order>3071/1024</order>
+    <text>&lt;p&gt;Based on the information you provided during our conversation, I am unable to diagnose and treat you today. Please call our [customer_name] priority line for a scheduler to assist you with arranging an appointment. You will not be charged for this [visit_noun]. Thanks for using [visit_brand].</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>71</thought>
+  </fragment>
+  <fragment>
+    <id>143</id>
+    <order>6143/2048</order>
+    <text>&lt;p&gt;I am recommending:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>85</thought>
+  </fragment>
+  <fragment>
+    <id>145</id>
+    <order>12287/4096</order>
+    <text>&lt;p&gt;&lt;b&gt;Calamine&lt;/b&gt; as needed.  This is an over-the-counter medication that does not require a prescription.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>85</thought>
+  </fragment>
+  <fragment>
+    <id>147</id>
+    <order>24575/8192</order>
+    <text>&lt;p&gt;I am prescribing:</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>89</thought>
+  </fragment>
+  <fragment>
+    <id>149</id>
+    <order>49151/16384</order>
+    <text>&lt;p&gt;&lt;b&gt;Doxycycline&lt;/b&gt;.  Take one tablet by mouth two times a day for 14 days.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>91</thought>
+  </fragment>
+  <fragment>
+    <id>151</id>
+    <order>11/2</order>
+    <text>&lt;DrugDescription&gt;doxycycline Hyclate (Vibramycin) 100mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;100&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;28&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth two times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;69095050&lt;/NDC&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>91</thought>
+  </fragment>
+  <fragment>
+    <id>153</id>
+    <order>98303/32768</order>
+    <text>&lt;p&gt;&lt;b&gt;Amoxicillin&lt;/b&gt;. Take one tablet by mouth three times a day for 14 days.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>93</thought>
+  </fragment>
+  <fragment>
+    <id>155</id>
+    <order>23/4</order>
+    <text>&lt;DrugDescription&gt;amoxicillin 500mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;500&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;42&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth three times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;66336029330&lt;/NDC&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>93</thought>
+  </fragment>
+  <fragment>
+    <id>157</id>
+    <order>196607/65536</order>
+    <text>&lt;p&gt;&lt;b&gt;Cefuroxime&lt;/b&gt;. Take one tablet by mouth two times a day for 14 days.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>95</thought>
+  </fragment>
+  <fragment>
+    <id>159</id>
+    <order>47/8</order>
+    <text>&lt;DrugDescription&gt;cefuroxime axetil (Ceftin) 500mg oral tablet&lt;/DrugDescription&gt;&lt;Strength&gt;500&lt;/Strength&gt;&lt;StrengthQualifier&gt;mg&lt;/StrengthQualifier&gt;&lt;Quantity&gt;28&lt;/Quantity&gt;&lt;QuantityQualifier&gt;tablets&lt;/QuantityQualifier&gt;&lt;RefillCount&gt;0&lt;/RefillCount&gt;&lt;Sig&gt;Take one tablet by mouth two times a day for 14 days&lt;/Sig&gt;&lt;DaysSupply&gt;14&lt;/DaysSupply&gt;&lt;DrugForm&gt;oral tablet&lt;/DrugForm&gt;&lt;RefillAsNeeded&gt;FALSE&lt;/RefillAsNeeded&gt;&lt;AllowSubstitution&gt;TRUE&lt;/AllowSubstitution&gt;&lt;NDC&gt;0173-0394-00&lt;/NDC&gt;</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>95</thought>
+  </fragment>
+  <fragment>
+    <id>161</id>
+    <order>393215/131072</order>
+    <text>&lt;p&gt;If you find a tick attached to your skin, there are several tick removal devices on the market, but a plain set of fine-tipped tweezers will remove a tick quite effectively. Use the tweezers to:&lt;ul&gt;&lt;li&gt;Grasp the tick as close to the skin's surface as possible.&lt;/li&gt;&lt;li&gt;Pull upward with steady, even pressure. &lt;b&gt;Don't twist or jerk the tick;&lt;/b&gt; this can cause the mouth-parts to break off and remain in the skin. If this happens, remove the mouth-parts with tweezers. If you are unable to remove the mouth easily with clean tweezers, leave it alone and let the skin heal.&lt;/li&gt;&lt;li&gt;After removing the tick, thoroughly clean the bite area and your hands with rubbing alcohol, an iodine scrub, or soap and water.&lt;/li&gt;&lt;li&gt;Avoid folklore remedies such as 'painting' the tick with nail polish or petroleum jelly, or using heat to make the tick detach from the skin. Your goal is to remove the tick as quickly as possible--not waiting for it to detach.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you develop a rash or fever within several weeks of removing a tick, go to a clinic for evaluation. Be sure to tell  the clinician about your recent tick bite:   when the bite occurred, and where you were when you were bitten.</text>
+    <options>()</options>
+    <option/>
+    <question/>
+    <formula/>
+    <thought>99</thought>
+  </fragment>
+  <option>
+    <id>3</id>
+    <order>2</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(5)</chi>
+    <comment>Reason for visit</comment>
+    <question>5</question>
+    <value/>
+  </option>
+  <option>
+    <id>5</id>
+    <order/>
+    <fragment>&lt;b&gt;for evaluation of a tick bite.&lt;/b&gt;</fragment>
+    <type>item</type>
+    <choice>Sample protocol (tick bite)</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>reason</value>
+  </option>
+  <option>
+    <id>7</id>
+    <order>3</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(9 11)</chi>
+    <comment>HPI: Tick bite</comment>
+    <question>13</question>
+    <value/>
+  </option>
+  <option>
+    <id>9</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>11</id>
+    <order/>
+    <fragment>no</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>13</id>
+    <order>4</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(15 17 19)</chi>
+    <comment>HPI: Tick images</comment>
+    <question>17</question>
+    <value/>
+  </option>
+  <option>
+    <id>15</id>
+    <order/>
+    <fragment>states the tick looked</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>17</id>
+    <order/>
+    <fragment>states the tick did not look</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>19</id>
+    <order/>
+    <fragment>is not sure if the tick looked</fragment>
+    <type>item</type>
+    <choice>I'm not sure</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>notsure</value>
+  </option>
+  <option>
+    <id>21</id>
+    <order>5</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(23 25)</chi>
+    <comment>HPI: Symptoms: Bull's-eye rash</comment>
+    <question>27</question>
+    <value/>
+  </option>
+  <option>
+    <id>23</id>
+    <order/>
+    <fragment>has a bull's-eye rash</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>25</id>
+    <order/>
+    <fragment>having a bull's-eye rash</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>27</id>
+    <order>6</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(29 31)</chi>
+    <comment>HPI: Symptoms: Redness</comment>
+    <question>29</question>
+    <value/>
+  </option>
+  <option>
+    <id>29</id>
+    <order/>
+    <fragment>is red</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>31</id>
+    <order/>
+    <fragment>redness</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>33</id>
+    <order>7</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(35 37)</chi>
+    <comment>HPI: Symptoms: Swelling</comment>
+    <question>31</question>
+    <value/>
+  </option>
+  <option>
+    <id>35</id>
+    <order/>
+    <fragment>is swollen</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>37</id>
+    <order/>
+    <fragment>swelling</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>39</id>
+    <order>8</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(41 43)</chi>
+    <comment>HPI: Photo opt in</comment>
+    <question>35</question>
+    <value/>
+  </option>
+  <option>
+    <id>41</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>43</id>
+    <order/>
+    <fragment>no</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>45</id>
+    <order>9</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(47 49)</chi>
+    <comment>HPI: Temperature opt in</comment>
+    <question>43</question>
+    <value/>
+  </option>
+  <option>
+    <id>47</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>49</id>
+    <order/>
+    <fragment>no</fragment>
+    <type>item</type>
+    <choice>No</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>no</value>
+  </option>
+  <option>
+    <id>51</id>
+    <order>10</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(53)</chi>
+    <comment>PMH: Medication allergies: Cefuroxime/Ceftriaxone/Keflex</comment>
+    <question>57</question>
+    <value/>
+  </option>
+  <option>
+    <id>53</id>
+    <order/>
+    <fragment>cefuroxime/ceftriaxone/keflex</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>55</id>
+    <order>11</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(57)</chi>
+    <comment>PMH: Medication allergies: Doxycycline</comment>
+    <question>59</question>
+    <value/>
+  </option>
+  <option>
+    <id>57</id>
+    <order/>
+    <fragment>doxycycline</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>59</id>
+    <order>12</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(61)</chi>
+    <comment>PMH: Medication allergies: Penicillin/Amoxicillin/Augmentin</comment>
+    <question>61</question>
+    <value/>
+  </option>
+  <option>
+    <id>61</id>
+    <order/>
+    <fragment>penicillin/amoxicillin/augmentin</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>63</id>
+    <order>13</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(65)</chi>
+    <comment>PMH: Medication allergies: None</comment>
+    <question>63</question>
+    <value/>
+  </option>
+  <option>
+    <id>65</id>
+    <order/>
+    <fragment>none of these</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>67</id>
+    <order>14</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(69)</chi>
+    <comment>Patient education</comment>
+    <question>85</question>
+    <value/>
+  </option>
+  <option>
+    <id>69</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>71</id>
+    <order>15</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(73)</chi>
+    <comment>OTC Medications: Calamine</comment>
+    <question>91</question>
+    <value/>
+  </option>
+  <option>
+    <id>73</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>75</id>
+    <order>16</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(77)</chi>
+    <comment>Rx Medications: Doxycycline</comment>
+    <question>95</question>
+    <value/>
+  </option>
+  <option>
+    <id>77</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>79</id>
+    <order>17</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(81)</chi>
+    <comment>Rx Medications: Amoxicillin</comment>
+    <question>99</question>
+    <value/>
+  </option>
+  <option>
+    <id>81</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <option>
+    <id>83</id>
+    <order>18</order>
+    <fragment/>
+    <type>list</type>
+    <choice/>
+    <chi>(85)</chi>
+    <comment>Rx Medications: Cefuroxime</comment>
+    <question>103</question>
+    <value/>
+  </option>
+  <option>
+    <id>85</id>
+    <order/>
+    <fragment>yes</fragment>
+    <type>item</type>
+    <choice>Yes</choice>
+    <chi/>
+    <comment/>
+    <question/>
+    <value>yes</value>
+  </option>
+  <question>
+    <id>1</id>
+    <order>0</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>Start Patient</comment>
+    <chi>(5)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>4</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;How can we help you today?&lt;b&gt;</label>
+  </question>
+  <question>
+    <id>5</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Please select the category that fits the reason for your [visit_noun] today.&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>9</id>
+    <order>1/2</order>
+    <layout>form</layout>
+    <thought>2</thought>
+    <comment>Start Doctor Part</comment>
+    <chi/>
+    <label/>
+  </question>
+  <question>
+    <id>11</id>
+    <order>1/4</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>HPI: Tick bite</comment>
+    <chi>(13)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>13</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Have you bitten by a tick?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>15</id>
+    <order>3/8</order>
+    <layout>form</layout>
+    <thought>15</thought>
+    <comment>HPI: Tick images</comment>
+    <chi>(17)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>17</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Did the tick look like one of these images?&lt;/b&gt;&lt;p&gt;&lt;center&gt;&lt;img src='/assets/Blacklegged_Deer_Tick.jpg' alt='Black Legged Deer Tick'&gt;&lt;/img&gt;&lt;/center&gt;</label>
+  </question>
+  <question>
+    <id>19</id>
+    <order>7/16</order>
+    <layout>form</layout>
+    <thought>15</thought>
+    <comment>HPI: City and state where bite occurred</comment>
+    <chi>(21)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>21</id>
+    <order/>
+    <layout>single-line</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Where were you at the time you were bitten by a tick? Please enter the city and state below.&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>23</id>
+    <order>15/32</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>HPI: Symptoms</comment>
+    <chi>(25 27 29 31)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>25</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Do you have any of these symptoms?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>27</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>A rash that resembles a target</label>
+  </question>
+  <question>
+    <id>29</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Redness</label>
+  </question>
+  <question>
+    <id>31</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Swelling</label>
+  </question>
+  <question>
+    <id>33</id>
+    <order>31/64</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>HPI: Photo opt in</comment>
+    <chi>(35)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>35</id>
+    <order/>
+    <layout>radio</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;A photo of the affected area of your skin is required in order to diagnose and treat you. Are you able to take and upload a photo of your condition?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>37</id>
+    <order>63/128</order>
+    <layout>form</layout>
+    <thought>17</thought>
+    <comment>HPI: Photo upload</comment>
+    <chi>(39)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>39</id>
+    <order/>
+    <layout>image</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Please upload 2 to 3 photos for your clinician to review.&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>41</id>
+    <order>127/256</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>HPI: Temperature opt in</comment>
+    <chi>(43)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>43</id>
+    <order/>
+    <layout>radio-single</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Are you able to take your temperature now?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>45</id>
+    <order>255/512</order>
+    <layout>form</layout>
+    <thought>19</thought>
+    <comment>HPI: Temperature</comment>
+    <chi>(47)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>47</id>
+    <order/>
+    <layout>decimal</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;What is your temperature in Fahrenheit?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>49</id>
+    <order>511/1024</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>Weight input</comment>
+    <chi>(51)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>51</id>
+    <order/>
+    <layout>integer</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Please enter your weight (in lbs):&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>53</id>
+    <order>1023/2048</order>
+    <layout>form</layout>
+    <thought>1</thought>
+    <comment>PMH: Medication allergies</comment>
+    <chi>(55 57 59 61 63)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>55</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Are you allergic to any of these antibiotics?&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>57</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Cefuroxime/Ceftriaxone/Keflex</label>
+  </question>
+  <question>
+    <id>59</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Doxycycline</label>
+  </question>
+  <question>
+    <id>61</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Penicillin/Amoxicillin/Augmentin</label>
+  </question>
+  <question>
+    <id>63</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>None of these</label>
+  </question>
+  <question>
+    <id>65</id>
+    <order>2047/4096</order>
+    <layout>form</layout>
+    <thought>21</thought>
+    <comment>PMH: Medication allergy free text</comment>
+    <chi>(67)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>67</id>
+    <order/>
+    <layout>double-line</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;b&gt;Please list the names of any other medications to which you are allergic. If you do not have any medication allergies, please type 'none'.&lt;/b&gt;</label>
+  </question>
+  <question>
+    <id>69</id>
+    <order>3/2</order>
+    <layout>form</layout>
+    <thought>2</thought>
+    <comment>Clinical Decision Support</comment>
+    <chi>(71 73)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>71</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;h3&gt;CLINICAL DECISION SUPPORT&lt;/h3&gt;</label>
+  </question>
+  <question>
+    <id>73</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>The Infectious Disease Society of America (IDSA) does not generally recommend antimicrobial prophylaxis for prevention of Lyme disease after a recognized tick bite. However, in areas that are highly endemic for Lyme disease, a single dose of doxycycline may be offered to adult patients (200 mg) who are not pregnant and to children older than 8 years of age (4 mg/kg up to a maximum dose of 200 mg) when all of the following circumstances exist:</label>
+  </question>
+  <question>
+    <id>75</id>
+    <order>5/2</order>
+    <layout>form</layout>
+    <thought>2</thought>
+    <comment>Rx Medications</comment>
+    <chi>(77)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>77</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;h3&gt;RX MEDICATIONS&lt;/h3&gt;</label>
+  </question>
+  <question>
+    <id>81</id>
+    <order>2</order>
+    <layout>form</layout>
+    <thought>2</thought>
+    <comment>Patient Education</comment>
+    <chi>(83 85)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>83</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;h3&gt;PATIENT EDUCATION&lt;/h3&gt;</label>
+  </question>
+  <question>
+    <id>85</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Instructions for safely removing a tick from skin</label>
+  </question>
+  <question>
+    <id>87</id>
+    <order>9/4</order>
+    <layout>form</layout>
+    <thought>2</thought>
+    <comment>OTC Medications</comment>
+    <chi>(89 91)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>89</id>
+    <order/>
+    <layout>label</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>&lt;h3&gt;OTC MEDICATIONS&lt;/h3&gt;</label>
+  </question>
+  <question>
+    <id>91</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Calamine</label>
+  </question>
+  <question>
+    <id>93</id>
+    <order>7/2</order>
+    <layout>form</layout>
+    <thought>77</thought>
+    <comment>Doxycycline</comment>
+    <chi>(95)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>95</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Doxycycline (Vibramycin) 100 mg oral tablet</label>
+  </question>
+  <question>
+    <id>97</id>
+    <order>9/2</order>
+    <layout>form</layout>
+    <thought>79</thought>
+    <comment>Amoxicillin</comment>
+    <chi>(99)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>99</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Amoxicillin 500 mg oral tablet</label>
+  </question>
+  <question>
+    <id>101</id>
+    <order>11/2</order>
+    <layout>form</layout>
+    <thought>81</thought>
+    <comment>Cefuroxime axetil</comment>
+    <chi>(103)</chi>
+    <label/>
+  </question>
+  <question>
+    <id>103</id>
+    <order/>
+    <layout>yes-no</layout>
+    <thought/>
+    <comment/>
+    <chi/>
+    <label>Cefuroxime axetil (Ceftin) 500 mg oral tablet</label>
+  </question>
+  <thought>
+    <id>1</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>Start Patient Workflow</comment>
+    <chi>(15 17 19 21 23 31 37 41)</chi>
+  </thought>
+  <thought>
+    <id>2</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>START doctor_part</comment>
+    <chi>(61 73 83 87 97)</chi>
+  </thought>
+  <thought>
+    <id>4</id>
+    <be-seen/>
+    <formula>(and(is q4 'gay)(is patient_gender 'female))</formula>
+    <comment>User is female and thinks they might be gay</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>6</id>
+    <be-seen/>
+    <formula>(and (is q4 'notgay)(is patient_gender 'female))</formula>
+    <comment>user thinks they are straight</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>8</id>
+    <be-seen/>
+    <formula>(and(is q4 'unsure)(is patient_gender 'female))</formula>
+    <comment>user is female and unsure</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>10</id>
+    <be-seen/>
+    <formula>(and(is q4 'gay)(is patient_gender 'male))</formula>
+    <comment>user is male and thinks they are gay</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>12</id>
+    <be-seen/>
+    <formula>(and(is q4 'notgay)(is patient_gender 'male))</formula>
+    <comment>user is male and straight</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>14</id>
+    <be-seen/>
+    <formula>(and(is q4 'unsure)(is patient_gender 'male))</formula>
+    <comment>user is male and unsure</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>15</id>
+    <be-seen/>
+    <formula>(yesto q13)</formula>
+    <comment>Was bitten by a tick</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>17</id>
+    <be-seen/>
+    <formula>(yesto q35)</formula>
+    <comment>Able to upload photo</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>19</id>
+    <be-seen/>
+    <formula>(yesto q43)</formula>
+    <comment>Able to measure temperature</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>21</id>
+    <be-seen/>
+    <formula>(yesto q63)</formula>
+    <comment>No medication allergies</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>23</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>ALWAYS REFER-OUT</comment>
+    <chi>(25 27 29)</chi>
+  </thought>
+  <thought>
+    <id>25</id>
+    <be-seen>on</be-seen>
+    <formula>(or (&lt; patient_age 8)(&gt; patient_age 65))</formula>
+    <comment>Age limits (8-65)</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>27</id>
+    <be-seen>on</be-seen>
+    <formula>(noto q13)</formula>
+    <comment>Was not bitten by a tick</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>29</id>
+    <be-seen>on</be-seen>
+    <formula>(&gt; q47 101)</formula>
+    <comment>Temperature over 101</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>31</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>PHONE VIDEO ENABLED</comment>
+    <chi>(33 35)</chi>
+  </thought>
+  <thought>
+    <id>33</id>
+    <be-seen>on</be-seen>
+    <formula>(and (yesto q29)(yesto q31))</formula>
+    <comment>Redness and swelling, trigger-phone</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>35</id>
+    <be-seen>on</be-seen>
+    <formula>(noto q35)</formula>
+    <comment>Unable to upload photo, trigger-video</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>37</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>NO PHONE VIDEO</comment>
+    <chi>(45 47 49)</chi>
+  </thought>
+  <thought>
+    <id>39</id>
+    <be-seen/>
+    <formula>(feature? 'patient_type_text')</formula>
+    <comment>Patient type text feature activation</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>41</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>PATIENT SUMMARY</comment>
+    <chi>(39 43 51 53 55 57 59)</chi>
+  </thought>
+  <thought>
+    <id>43</id>
+    <be-seen/>
+    <formula>(&lt; patient_age 18)</formula>
+    <comment>Patient is minor</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>45</id>
+    <be-seen/>
+    <formula>(and (yesto q29)(yesto q31))</formula>
+    <comment>Redness and swelling</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>47</id>
+    <be-seen/>
+    <formula>(noto q35)</formula>
+    <comment>Unable to upload photo</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>49</id>
+    <be-seen/>
+    <formula>(or (noto q35)(and (yesto q29)(yesto q31)))</formula>
+    <comment>Triggers synchronous note formatting</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>51</id>
+    <be-seen/>
+    <formula>(or (yesto q27)(yesto q29)(yesto q31))</formula>
+    <comment>Has bull's-eye rash, redness, or swelling</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>53</id>
+    <be-seen/>
+    <formula>(or (noto q27)(noto q29)(noto q31))</formula>
+    <comment>Denied symptoms</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>55</id>
+    <be-seen/>
+    <formula>(noto q43)</formula>
+    <comment>Unable to take temperature</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>57</id>
+    <be-seen/>
+    <formula>(or (yesto q57)(yesto q59)(yesto q61))</formula>
+    <comment>Notes allergies</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>59</id>
+    <be-seen/>
+    <formula>(yesto q27)</formula>
+    <comment>Bull's-eye rash present</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>61</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>ASSESSMENTS</comment>
+    <chi>(63 65 67 69 71)</chi>
+  </thought>
+  <thought>
+    <id>63</id>
+    <be-seen/>
+    <formula>(yesto c1)</formula>
+    <comment>Deer tick bite - Erythema migrans</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>65</id>
+    <be-seen/>
+    <formula>(yesto c2)</formula>
+    <comment>Tick bite - species uncertain</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>67</id>
+    <be-seen/>
+    <formula>(yesto c7)</formula>
+    <comment>Unable to diagnose</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>69</id>
+    <be-seen/>
+    <formula>(yesto c11)</formula>
+    <comment>Unable to contact patient by phone/video</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>71</id>
+    <be-seen/>
+    <formula>(yesto c15)</formula>
+    <comment>Unable to diagnose - phone/video interview</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>73</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>MEDICATION FILTERING</comment>
+    <chi>(75)</chi>
+  </thought>
+  <thought>
+    <id>75</id>
+    <be-seen/>
+    <formula>(yesto c1)</formula>
+    <comment>Deer tick bite - Erythema migrans</comment>
+    <chi>(77 79 81)</chi>
+  </thought>
+  <thought>
+    <id>77</id>
+    <be-seen/>
+    <formula>(isnt q59 'yes)</formula>
+    <comment>No doxycycline allergy</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>79</id>
+    <be-seen/>
+    <formula>(isnt q61 'yes)</formula>
+    <comment>No amoxicillin allergy</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>81</id>
+    <be-seen/>
+    <formula>(isnt q57 'yes)</formula>
+    <comment>No cefuroxime allergy</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>83</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>OTC MEDICATIONS</comment>
+    <chi>(85)</chi>
+  </thought>
+  <thought>
+    <id>85</id>
+    <be-seen/>
+    <formula>(yesto q91)</formula>
+    <comment>Calamine</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>87</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>RX MEDICATIONS</comment>
+    <chi>(89 91 93 95)</chi>
+  </thought>
+  <thought>
+    <id>89</id>
+    <be-seen/>
+    <formula>(or (yesto q95)(yesto q99)(yesto q103))</formula>
+    <comment>Rx Medication prescribed</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>91</id>
+    <be-seen/>
+    <formula>(yesto q95)</formula>
+    <comment>Doxycycline</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>93</id>
+    <be-seen/>
+    <formula>(yesto q99)</formula>
+    <comment>Amoxicillin</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>95</id>
+    <be-seen/>
+    <formula>(yesto q103)</formula>
+    <comment>Cefuroxime</comment>
+    <chi/>
+  </thought>
+  <thought>
+    <id>97</id>
+    <be-seen/>
+    <formula>t</formula>
+    <comment>PATIENT EDUCATION</comment>
+    <chi>(99)</chi>
+  </thought>
+  <thought>
+    <id>99</id>
+    <be-seen/>
+    <formula>(yesto q85)</formula>
+    <comment>Instructions for removing tick</comment>
+    <chi/>
+  </thought>
+</medical_content>
