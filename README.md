@@ -1,0 +1,1 @@
+`./xml_compare.rb xmls/sample-tick/old.xml xmls/sample-tick/new.xml`
